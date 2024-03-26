@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.achat-page{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+}
+.achat-main{
+    width: 100%;
+    height:100%;
+    /* background-color: #fff; */
+    /* background-color: black; */
+}
+.title2{
+    color: white;
+    text-align: center;
+}

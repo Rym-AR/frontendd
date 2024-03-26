@@ -62,3 +62,9 @@
        background-color: #06c0ca;
        color: black;
      }
+.error-message{
+  color:red;
+  width: 50%;
+  white-space: nowrap;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stock-page{
+    width: 100%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.stock-main{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(221, 221, 221); */
+}
+.title1{
+    color: black;
+    text-align:center;
+}

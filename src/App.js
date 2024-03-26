@@ -25,15 +25,25 @@
 // export default App;
 
 import {BrowserRouter,Routes,Route}from "react-router-dom";
-import Home from "./home";
+// import Home from "./Admin/home";
 import Login from "./login";
+import AddUser from "./Admin/addUser";
+// import Stock from"./stock";
+// import Achat from "./achat";
+import User  from "./Admin/user";
+import GHome from "./Gestionnaire/Ghome";
 
 function App(){
 return(
   <BrowserRouter>
       <Routes>      
         <Route path="/" element={<Login/>}></Route>
-        <Route path="/home" element={<Home/>}></Route>
+        {/* <Route path="/home" element={<Home/>}></Route> */}
+        <Route path="/home" element={<GHome/>}></Route>
+        <Route path="/user" element={<User/>}></Route>
+        <Route path="/adduser" element={<AddUser/>}></Route>
+        {/* <Route path="/stock" element={<Stock/>}></Route>
+        <Route path="/achat" element={<Achat/>}></Route> */}
       </Routes>
   </BrowserRouter>
 )
